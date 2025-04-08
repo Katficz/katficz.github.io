@@ -1,0 +1,1 @@
+import{d as s}from"./vm-BHMX-CTo.js";import{Y as u,o as i,g as m}from"./index-dRdHOB_o.js";function c(){let t=null;const o=m();function e(){t!==null&&(clearTimeout(t),t=null)}return u(e),i(e),{removeTimeout:e,registerTimeout(n,r){e(),s(o)===!1&&(t=setTimeout(()=>{t=null,n()},r))}}}const f=(t,o)=>{const e=t.__vccOpts||t;for(const[n,r]of o)e[n]=r;return e};export{f as _,c as u};
